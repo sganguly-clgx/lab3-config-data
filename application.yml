@@ -9,7 +9,10 @@ eureka:
 spring:
   profiles: lab-4-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone=http://localhost:8010/eureka/
 
 ---
 spring:
