@@ -11,7 +11,7 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: lab-4-article
+  profiles: article
 words: a,the
 
 ---
